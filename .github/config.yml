@@ -2,14 +2,16 @@
 
 # *OPTIONAL* Comment to reply with
 # Can be either a string :
-requestInfoReplyComment: >
-  We would appreciate it if you could provide us with more info about this issue/pr!
+# requestInfoReplyComment: >
+#   We would appreciate it if you could provide us with more info about this issue/pr!
 
 # Or an array:
-# requestInfoReplyComment:
-#  - Ah no! young blade! That was a trifle short!
-#  - Tell me more !
-#  - I am sure you can be more effusive
+requestInfoReplyComment:
+ - Ah no! That was short!
+ - Tell me more !
+ - I am sure you can be more effusive
+ - Yo, can you please elaborate? The person who was assigned to this complained to me lmao(no offense at all)
+ - All I want you to do in this PR is elaborate about this. Thanks in advance for your idea!
 
 
 # *OPTIONAL* default titles to check against for lack of descriptiveness
@@ -19,7 +21,7 @@ requestInfoDefaultTitles:
   - updates
 
 # *OPTIONAL* Label to be added to Issues and Pull Requests with insufficient information given
-requestInfoLabelToAdd: needs-more-info
+requestInfoLabelToAdd: needs-a-little-more-info
 
 # *OPTIONAL* Require Pull Requests to contain more information than what is provided in the PR template
 # Will fail if the pull request's body is equal to the provided template
